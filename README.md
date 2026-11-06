@@ -203,7 +203,7 @@ footer {
     <footer>
         CRÉÉ SPÉCIALEMENT POUR TOI ❤️
         <br><br>
-        10 NOVEMBRE 2026
+        06 NOVEMBRE 2026
     </footer>
 
 </div>
