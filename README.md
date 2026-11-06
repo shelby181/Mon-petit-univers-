@@ -1,85 +1,80 @@
-<!DOCTYPE html>
+Pour toi mon amour ❤🫂
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Un petit cadeau ❤️</title>
+
+<title>Juste pour toi ❤️</title>
 
 <style>
 * {
-    box-sizing: border-box;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     min-height: 100vh;
-    background: #140d18;
+    background: linear-gradient(145deg, #170d19, #351b30, #120b16);
     color: white;
     font-family: Georgia, serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 25px 15px;
+    padding: 30px 18px;
 }
 
-.page {
+.container {
+    max-width: 450px;
     width: 100%;
-    max-width: 430px;
+    margin: 40px auto;
     text-align: center;
-    padding: 35px 20px;
 }
 
-.decor {
-    color: #ff91b3;
-    font-size: 25px;
-    margin-bottom: 25px;
+.top {
+    color: #e7a5bc;
+    letter-spacing: 4px;
+    font-size: 11px;
+    margin-bottom: 30px;
 }
 
 h1 {
     color: #ffabc5;
-    font-size: 29px;
+    font-size: 30px;
     font-weight: normal;
-    margin-bottom: 18px;
+    margin-bottom: 15px;
 }
 
 .intro {
-    color: #d9c4d1;
+    color: #e0cad7;
+    line-height: 1.9;
     font-size: 15px;
-    line-height: 1.8;
-    margin-bottom: 45px;
+    margin-bottom: 35px;
 }
 
 .card {
-    background: linear-gradient(145deg, #302033, #211522);
-    border: 1px solid #92516f;
-    border-radius: 24px;
-    padding: 35px 22px;
-    box-shadow: 0 10px 40px #00000055;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid #a95778;
+    border-radius: 22px;
+    padding: 25px 18px;
+    box-shadow: 0 10px 35px #0005;
 }
 
 .heart {
-    font-size: 65px;
-    color: #ff719e;
+    font-size: 45px;
+    color: #ff7da5;
     margin-bottom: 20px;
-    animation: heartbeat 1.8s infinite;
-}
-
-@keyframes heartbeat {
-    0%, 100% { transform: scale(1); }
-    50% { transform: scale(1.12); }
 }
 
 button {
-    border: none;
-    background: linear-gradient(135deg, #ff91b3, #d94377);
-    color: white;
-    padding: 15px 25px;
+    width: 100%;
+    padding: 16px 12px;
+    margin: 10px 0;
+    border: 1px solid #d87899;
     border-radius: 30px;
-    font-size: 15px;
+    background: linear-gradient(135deg, #a83d69, #e76b91);
+    color: white;
     font-family: Georgia, serif;
+    font-size: 15px;
     cursor: pointer;
-    margin-top: 20px;
+    transition: .3s;
 }
 
 button:active {
@@ -88,16 +83,30 @@ button:active {
 
 .message {
     display: none;
-    margin-top: 30px;
-    padding-top: 25px;
-    border-top: 1px solid #92516f;
-    animation: show 1.2s ease;
+    background: #281a2b;
+    border: 1px solid #81506c;
+    border-radius: 16px;
+    padding: 23px 18px;
+    margin: 12px 0 20px;
+    text-align: left;
+    line-height: 1.9;
+    color: #f2dce7;
+    font-size: 15px;
+    animation: appear 1s ease;
 }
 
-@keyframes show {
+.message h2 {
+    color: #ffabc5;
+    text-align: center;
+    font-size: 21px;
+    font-weight: normal;
+    margin-bottom: 18px;
+}
+
+@keyframes appear {
     from {
         opacity: 0;
-        transform: translateY(20px);
+        transform: translateY(15px);
     }
     to {
         opacity: 1;
@@ -105,119 +114,118 @@ button:active {
     }
 }
 
-.message h2 {
-    color: #ffabc5;
-    font-weight: normal;
-    font-size: 24px;
-    margin-bottom: 22px;
-}
-
-.message p {
-    color: #f0dce6;
-    font-size: 15px;
-    line-height: 2;
-}
-
 .signature {
+    text-align: center;
     color: #ffabc5;
     font-style: italic;
-    margin-top: 25px;
-    font-size: 17px;
+    margin-top: 20px;
 }
 
 footer {
-    color: #94798a;
+    color: #a88b9d;
     font-size: 11px;
     letter-spacing: 2px;
     margin-top: 35px;
 }
 
-@media(max-width: 380px) {
-    h1 { font-size: 25px; }
-    .card { padding: 28px 17px; }
-}
 </style>
 </head>
 
 <body>
 
-<div class="page">
+<div class="container">
 
-    <div class="decor">✦ ♡ ✦</div>
+    <div class="top">UNE PETITE SURPRISE</div>
 
-    <h1>Un petit quelque chose pour toi</h1>
+    <h1>Juste pour toi ❤️</h1>
 
     <p class="intro">
-        Ce n'est pas un grand cadeau...
+        J'ai quelque chose à te dire...
         <br>
-        Mais il vient d'un endroit très spécial.
+        Mais je préfère te laisser le découvrir.
+        <br>
+        Ouvre chaque petit message. 💌
     </p>
 
     <div class="card">
 
         <div class="heart">♥</div>
 
-        <h1>Juste pour toi, Manmi</h1>
-
-        <p class="intro">
-            J'ai gardé une petite surprise ici.
-            Elle n'attend que toi...
-        </p>
-
-        <button id="ouvrir" type="button">
-            Découvrir ma surprise ❤️
+        <button onclick="ouvrirMessage(1)">
+            01 — Je t'aime ❤️
         </button>
 
-        <div class="message" id="message">
+        <div class="message" id="msg1">
+            <h2>Je t'aime ❤️</h2>
+            Trois petits mots, mais tellement de sentiments
+            derrière eux.
+        </div>
 
-            <h2>Mon petit message pour toi 💌</h2>
+        <button onclick="ouvrirMessage(2)">
+            02 — Et même si... 💗
+        </button>
 
-            <p>
-                Je voulais simplement te rappeler
-                que certaines personnes rendent
-                la vie plus belle sans même le savoir.
-                <br><br>
-                Tu es l'une de ces personnes.
-                <br><br>
-                Peu importe les jours, les distances
-                ou les circonstances, n'oublie jamais
-                que tu as une place particulière
-                dans mon cœur.
-                <br><br>
-                Ce petit geste est simplement
-                une façon de te dire :
-                tu comptes énormément pour moi. ❤️
-            </p>
+        <div class="message" id="msg2">
+            <h2>Et même si... 💗</h2>
+            Et même si je te l'ai dit 1 million de fois,
+            je trouverai toujours une nouvelle façon
+            de te le rappeler.
+        </div>
+
+        <button onclick="ouvrirMessage(3)">
+            03 — Un message pour toi 💌
+        </button>
+
+        <div class="message" id="msg3">
+            <h2>À toi, Manmi ❤️</h2>
+
+            Je sais, que je te l'ai déjà dit un million
+            de fois, mais je le pense sincèrement.
+
+            Je suis tombé amoureux de chaque partie de toi.
+
+            Je n'ai jamais connu un bonheur pareil à celui
+            que je ressens quand nous sommes ensemble.
+
+            Le simple fait de t'entendre parler ou de voir
+            sourire fait briller quelque chose en moi,
+            même dans mes journées les plus sombres.
+
+            Je t'aime de tout mon cœur.
 
             <div class="signature">
                 Avec amour, Papi ❤️
             </div>
-
         </div>
 
     </div>
 
     <footer>
-        CRÉÉ SPÉCIALEMENT POUR TOI · 10.11.2026
+        CRÉÉ SPÉCIALEMENT POUR TOI ❤️
+        <br><br>
+        10 NOVEMBRE 2026
     </footer>
 
 </div>
 
 <script>
-const bouton = document.getElementById("ouvrir");
-const message = document.getElementById("message");
+function ouvrirMessage(numero) {
 
-bouton.addEventListener("click", function() {
-    message.style.display = "block";
-    bouton.style.display = "none";
+    const message = document.getElementById("msg" + numero);
 
-    setTimeout(function() {
-        message.scrollIntoView({
-            behavior: "smooth",
-            block: "center"
-        });
-    }, 150);
-});
+    if (message.style.display === "block") {
+        message.style.display = "none";
+    } else {
+        message.style.display = "block";
+
+        setTimeout(function() {
+            message.scrollIntoView({
+                behavior: "smooth",
+                block: "center"
+            });
+        }, 100);
+    }
+}
 </script>
 
 </body>
